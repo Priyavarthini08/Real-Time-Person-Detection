@@ -4,15 +4,20 @@
 
 In this project, we are going to have a simulation about face recognition. The whole structure is divided into 3 parts:
 
-The general process of working with Yolo version 8
-Working online
-Results
-General process
-Installation
+* The general process of working with Yolo version 8
+* Working online
+* Results
+  
+# General process
+
+## Installation
+
 YOLOv8 released a package named “ultralytics”, that you can install with the mentioned command below.
 
 pip install ultralytics
-Preparation
+
+## Preparation
+
 By cloning the data, we can have the overall structure, we can prepare this item with the following command: (of course, we will tell another method for preparation in the last part)
 
 git clone https://github.com/SMSajadi99/Custom-Data-YOLOv8-Person-Detection.git
