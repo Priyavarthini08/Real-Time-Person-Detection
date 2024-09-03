@@ -1,5 +1,7 @@
 # Real-Time-Person-Detection
-Getting Started
+
+# Getting Started
+
 In this project, we are going to have a simulation about face recognition. The whole structure is divided into 3 parts:
 
 The general process of working with Yolo version 8
