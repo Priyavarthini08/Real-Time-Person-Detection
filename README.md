@@ -49,36 +49,20 @@ After running the following code, the folder structure should be as follows: (It
 
 .
 └── dataset
-
     ├── train
-    
-    │   ├── images
-    
-    │   └── labels
-    
-    ├── val
-    
-    │   ├── images
-    
-    │   └── labels
-    
-    |
-    .
-    .
-    .
-    |
+    │   ├── images    
+    │   └── labels    
+    ├── val    
+    │   ├── images    
+    │   └── labels    
+  
 Now create a folder called ‍‍yolov8 and make the previous folders in the following format:
-
+.
 ├── images
-
 │   ├── train
-
 │   └── valid
-
 ├── labels
-
 │   ├── train
-
 │   └── valid
 
 In the yolov8 folder, create a file named dataset.yaml and set the following values in it: (Make sure to set the path according to your folder)
@@ -95,8 +79,13 @@ Now all the items are ready and you can train and test it based on the General p
 
 Hint: In the ckpts folder, I put two sample yolov8 weights based on yolov8s.pth and 25 trained epochs numbers that you can use as an evaluation.
 
-Result
+# Result
+
 ![val_batch0_labels](https://github.com/user-attachments/assets/9ecf9eb1-e685-4d92-a591-84349c1b922a)
+
+
+
+
 
 
 ![val_batch1_pred](https://github.com/user-attachments/assets/3ece0840-3e1e-4b6c-8f37-13ed70d57832)
